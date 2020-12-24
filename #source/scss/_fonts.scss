@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+@font-face {
+    font-family: 'Ceremonious Two';
+    src: url('fonts/CeremoniousTwo.eot');
+    src: local('Ceremonious Two'), local('CeremoniousTwo'),
+        url('fonts/CeremoniousTwo.eot') format('embedded-opentype'),
+        url('fonts/CeremoniousTwo.woff') format('woff'),
+        url('fonts/CeremoniousTwo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'IdealistSans';
+	src: url('fonts/idealistsans.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/idealistsans.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/idealistsans.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/idealistsans.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/idealistsans.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/idealistsans.svg#idealistsans') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'BravoRG';
+	src: url('fonts/bravorg.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/bravorg.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/bravorg.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/bravorg.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/bravorg.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/bravorg.svg#bravorg') format('svg'); /* Chrome < 4, Legacy iOS */
+}

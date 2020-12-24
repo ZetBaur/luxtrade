@@ -1,0 +1,174 @@
+
+
+&:hover {
+    &.header__logo span {
+        &:nth-child(1) {
+            @keyframes logo1 {
+                0% {
+                    color: $gold;
+                }
+
+                50% {
+                    color: #fff;
+                }
+                100% {
+                    color: $gold;
+                }
+            
+            }
+            animation-name: logo1;
+            animation-duration: .1s;
+        }
+        &:nth-child(2) {
+            @keyframes logo2 {
+                0% {
+                    color: $gold;
+                }
+
+                50% {
+                    color: #fff;
+                }
+                100% {
+                    color: $gold;
+                }
+            
+            }
+            animation-name: logo2;
+            animation-duration: .1s;
+            animation-delay: .1s;
+        }
+        &:nth-child(3) {
+            @keyframes logo3 {
+                0% {
+                    color: $gold;
+                }
+
+                50% {
+                    color: #fff;
+                }
+                100% {
+                    color: $gold;
+                }
+            
+            }
+            animation-name: logo3;
+            animation-duration: .1s;
+            animation-delay: .2s;
+
+        }
+        &:nth-child(4) {
+            @keyframes logo4 {
+                0% {
+                    color: $gold;
+                }
+
+                50% {
+                    color: #fff;
+                }
+                100% {
+                    color: $gold;
+                }
+            
+            }
+            animation-name: logo4;
+            animation-duration: .1s;
+            animation-delay: .3s;
+
+        }
+        &:nth-child(5) {
+            @keyframes logo5 {
+                0% {
+                    color: $gold;
+                }
+
+                50% {
+                    color: #fff;
+                }
+                100% {
+                    color: $gold;
+                }
+            
+            }
+            animation-name: logo5;
+            animation-duration: .1s;
+            animation-delay: .4s;
+
+        }
+        &:nth-child(6) {
+            @keyframes logo6 {
+                0% {
+                    color: $gold;
+                }
+
+                50% {
+                    color: #fff;
+                }
+                100% {
+                    color: $gold;
+                }
+            
+            }
+            animation-name: logo6;
+            animation-duration: .1s;
+            animation-delay: .5s;
+
+        }
+        &:nth-child(7) {
+            @keyframes logo7 {
+                0% {
+                    color: $gold;
+                }
+
+                50% {
+                    color: #fff;
+                }
+                100% {
+                    color: $gold;
+                }
+            
+            }
+            animation-name: logo7;
+            animation-duration: .1s;
+            animation-delay: .6s;
+
+        }
+        &:nth-child(8) {
+            @keyframes logo8 {
+                0% {
+                    color: $gold;
+                }
+
+                50% {
+                    color: #fff;
+                }
+                100% {
+                    color: $gold;
+                }
+            
+            }
+            animation-name: logo8;
+            animation-duration: .1s;
+            animation-delay: .7s;
+
+        }
+        &:nth-child(9) {
+            @keyframes logo9 {
+                0% {
+                    color: $gold;
+                }
+
+                50% {
+                    color: #fff;
+                }
+                100% {
+                    color: $gold;
+                }
+            
+            }
+            animation-name: logo9;
+            animation-duration: .1s;
+            animation-delay: .8s;
+
+        }
+    }
+}

@@ -2,28 +2,835 @@
 
 <body>
 	<div class="wrapper">
-		<!-- @import "header.html" -->
-
-		<section class="form-1">
-			<form action="#" class="form">
-				<div class="form__line">
-					<input id="inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Подпись поля"
-						class="input req email">
+		<header class="header">
+			<div class="container">
+				<div class="header__body">
+					<a href="#" class="header__logo logo">
+						<span>L</span><span>u</span><span>x</span><span>r</span><span>a</span><span>d</span><span>e</span><span>r</span>
+					</a>
+					<nav class="header__menu-list menu-list">
+						<div class="header__menu-item menu-item">
+							<a href="#home" class="header__menu-link">
+								Home
+							</a>
+						</div>
+						<div class="header__menu-item menu-item">
+							<a href="#auction" class="header__menu-link">
+								Auction
+							</a>
+						</div>
+						<div class="header__menu-item menu-item">
+							<a href="#categories" class="header__menu-link">
+								categories
+							</a>
+						</div>
+						<div class="header__menu-item menu-item">
+							<a href="#services" class="header__menu-link">
+								services
+							</a>
+						</div>
+						<div class="header__menu-item menu-item">
+							<a href="#contact" class="header__menu-link">
+								Contact
+							</a>
+						</div>
+						<div class="header__menu-close close icon-close"></div>
+					</nav>
+					<div class="header__user">
+						<div class="header__user-item">
+							<div class="header__user-img ">
+								<img src="img/header/user.png" alt="">
+							</div>
+							<div class="header__user-dropdown">
+								<div class="header__user-dropdown-item" data-da=".header__menu-list,767,0">
+									Region selection
+								</div>
+								<div class="header__user-dropdown-item" data-da=".header__menu-list,767,0">
+									User account
+								</div>
+								<div class="header__user-dropdown-item" data-da=".header__menu-list,767,0">
+									My bets
+								</div>
+								<div class="header__user-dropdown-item" data-da=".header__menu-list,767,0">
+									My lots
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header__burger burger burger icon-align-center"></div>
 				</div>
-			
-			
-			
-				<button type="submit" class="form__btn btn">Задать вопрос</button>
-			</form>
+			</div>
+		</header>
+		<!-- ============================================================================================================================================= -->
+		<section class="home" id="home">
+			<div class="container">
+				<div class="home__body">
+					<div class="home__gold-title gold-title">
+						Exclusive only
+					</div>
+					<div class="home__title title">
+						Lots for auction and free sale
+					</div>
+					<div class="home__text">
+						We collect an exclusive audience and exclusive lots, provide a convenient and automated service
+						for buying and selling, as well as putting lots up for auction, provide personal accounts, and
+						also provide related services with the sale of rare and expensive items
+					</div>
+					<a href="#" class="home__btn btn">
+						join
+					</a>
+					<div class="home__decor">
+						<span class="home__left-angle">
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="11" height="28"
+								viewBox="0 0 11 28">
+								<title>angle-left</title>
+								<path
+									d="M9.797 8.5c0 0.125-0.063 0.266-0.156 0.359l-6.141 6.141 6.141 6.141c0.094 0.094 0.156 0.234 0.156 0.359s-0.063 0.266-0.156 0.359l-0.781 0.781c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-7.281-7.281c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l7.281-7.281c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l0.781 0.781c0.094 0.094 0.156 0.219 0.156 0.359z">
+								</path>
+							</svg>
+						</span>
+						<div class="home__decor-round"></div>
+						<span class="home__right-angle">
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="9" height="28"
+								viewBox="0 0 9 28">
+								<title>angle-right</title>
+								<path
+									d="M9.297 15c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-0.781-0.781c-0.094-0.094-0.156-0.219-0.156-0.359 0-0.125 0.063-0.266 0.156-0.359l6.141-6.141-6.141-6.141c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l7.281 7.281c0.094 0.094 0.156 0.234 0.156 0.359z">
+								</path>
+							</svg>
+						</span>
+					</div>
+				</div>
+			</div>
 		</section>
-	
-
-
-		<!-- @import "footer.html" -->
+		<!-- ============================================================================================================================================= -->
+		<section class="auction" id="auction">
+			<div class="container">
+				<div class="auction__body">
+					<div class="auction__gold-title gold-title">
+						Popular
+					</div>
+					<div class="auction__title title">
+						lots For auction
+					</div>
+					<div class="auction__decor-block">
+						<div class="decor-block">
+							<div class="decor-block__row">
+								<span class="decor-block__item decor-block__item_1"></span>
+								<span class="decor-block__item decor-block__item_2"></span>
+								<span class="decor-block__item decor-block__item_3"></span>
+								<span class="decor-block__item decor-block__item_4"></span>
+							</div>
+							<div class="decor-block__img">
+								<img src="img/decor-img/2.png" alt="">
+							</div>
+							<div class="decor-block__row decor-block__row_2">
+								<span class="decor-block__item decor-block__item_1"></span>
+								<span class="decor-block__item decor-block__item_2"></span>
+								<span class="decor-block__item decor-block__item_3"></span>
+								<span class="decor-block__item decor-block__item_4"></span>
+							</div>
+						</div>
+					</div>
+					<div class="auction__slider">
+						<div class="auction__slider-body slider">
+							<div class="auction__slider-item">
+								<div class="auction__slider-item-wrapper">
+									<div class="auction__slider-item-img ">
+										<img src="img/auction/1.jpg" alt="">
+									</div>
+									<div class="auction__slider-item-title">
+										Arnold & Son Worldtimer discovery of antarctica
+									</div>
+									<div class="auction__slider-item-bet">
+										<div class="auction__slider-item-current">
+											Current bet
+										</div>
+										<div class="auction__slider-item-price">
+											$ 245 050
+										</div>
+									</div>
+									<div class="auction__slider-item-btn btn">
+										RAISE BET
+									</div>
+								</div>
+							</div>
+							<div class="auction__slider-item">
+								<div class="auction__slider-item-wrapper">
+									<div class="auction__slider-item-img ">
+										<img src="img/auction/2.jpg" alt="">
+									</div>
+									<div class="auction__slider-item-title">
+										Chateau Lafite 1949
+									</div>
+									<div class="auction__slider-item-bet">
+										<div class="auction__slider-item-current">
+											Current bet
+										</div>
+										<div class="auction__slider-item-price">
+											$ 245 050
+										</div>
+									</div>
+									<div class="auction__slider-item-btn btn">
+										RAISE BET
+									</div>
+								</div>
+							</div>
+							<div class="auction__slider-item">
+								<div class="auction__slider-item-wrapper">
+									<div class="auction__slider-item-img ">
+										<img src="img/auction/1.jpg" alt="">
+									</div>
+									<div class="auction__slider-item-title">
+										Rolex Paul Newman
+										Daytona
+									</div>
+									<div class="auction__slider-item-bet">
+										<div class="auction__slider-item-current">
+											Current bet
+										</div>
+										<div class="auction__slider-item-price">
+											$ 245 050
+										</div>
+									</div>
+									<div class="auction__slider-item-btn btn">
+										RAISE BET
+									</div>
+								</div>
+							</div>
+							<div class="auction__slider-item">
+								<div class="auction__slider-item-wrapper">
+									<div class="auction__slider-item-img ">
+										<img src="img/auction/4.jpg" alt="">
+									</div>
+									<div class="auction__slider-item-title">
+										Chateau Lafite 1949
+									</div>
+									<div class="auction__slider-item-bet">
+										<div class="auction__slider-item-current">
+											Current bet
+										</div>
+										<div class="auction__slider-item-price">
+											$ 245 050
+										</div>
+									</div>
+									<div class="auction__slider-item-btn btn">
+										RAISE BET
+									</div>
+								</div>
+							</div>
+							<div class="auction__slider-item">
+								<div class="auction__slider-item-wrapper">
+									<div class="auction__slider-item-img ">
+										<img src="img/auction/3.jpg" alt="">
+									</div>
+									<div class="auction__slider-item-title">
+										Arnold & Son Worldtimer discovery of antarctica
+									</div>
+									<div class="auction__slider-item-bet">
+										<div class="auction__slider-item-current">
+											Current bet
+										</div>
+										<div class="auction__slider-item-price">
+											$ 245 050
+										</div>
+									</div>
+									<div class="auction__slider-item-btn btn">
+										RAISE BET
+									</div>
+								</div>
+							</div>
+							<div class="auction__slider-item">
+								<div class="auction__slider-item-wrapper">
+									<div class="auction__slider-item-img ">
+										<img src="img/auction/2.jpg" alt="">
+									</div>
+									<div class="auction__slider-item-title">
+										Rolex Paul Newman
+										Daytona
+									</div>
+									<div class="auction__slider-item-bet">
+										<div class="auction__slider-item-current">
+											Current bet
+										</div>
+										<div class="auction__slider-item-price">
+											$ 245 050
+										</div>
+									</div>
+									<div class="auction__slider-item-btn btn">
+										RAISE BET
+									</div>
+								</div>
+							</div>
+							<div class="auction__slider-item">
+								<div class="auction__slider-item-wrapper">
+									<div class="auction__slider-item-img ">
+										<img src="img/auction/1.jpg" alt="">
+									</div>
+									<div class="auction__slider-item-title">
+										Chateau Lafite 1949a
+									</div>
+									<div class="auction__slider-item-bet">
+										<div class="auction__slider-item-current">
+											Current bet
+										</div>
+										<div class="auction__slider-item-price">
+											$ 245 050
+										</div>
+									</div>
+									<div class="auction__slider-item-btn btn">
+										RAISE BET
+									</div>
+								</div>
+							</div>
+							<div class="auction__slider-item">
+								<div class="auction__slider-item-wrapper">
+									<div class="auction__slider-item-img ">
+										<img src="img/auction/4.jpg" alt="">
+									</div>
+									<div class="auction__slider-item-title">
+										Rolex Paul Newman
+										Daytona
+									</div>
+									<div class="auction__slider-item-bet">
+										<div class="auction__slider-item-current">
+											Current bet
+										</div>
+										<div class="auction__slider-item-price">
+											$ 245 050
+										</div>
+									</div>
+									<div class="auction__slider-item-btn btn">
+										RAISE BET
+									</div>
+								</div>
+							</div>
+							<div class="auction__slider-item">
+								<div class="auction__slider-item-wrapper">
+									<div class="auction__slider-item-img ">
+										<img src="img/auction/3.jpg" alt="">
+									</div>
+									<div class="auction__slider-item-title">
+										Arnold & Son Worldtimer discovery of antarctica
+									</div>
+									<div class="auction__slider-item-bet">
+										<div class="auction__slider-item-current">
+											Current bet
+										</div>
+										<div class="auction__slider-item-price">
+											$ 245 050
+										</div>
+									</div>
+									<div class="auction__slider-item-btn btn">
+										RAISE BET
+									</div>
+								</div>
+							</div>
+							<div class="auction__slider-item">
+								<div class="auction__slider-item-wrapper">
+									<div class="auction__slider-item-img ">
+										<img src="img/auction/2.jpg" alt="">
+									</div>
+									<div class="auction__slider-item-title">
+										Arnold & Son Worldtimer discovery of antarctica
+									</div>
+									<div class="auction__slider-item-bet">
+										<div class="auction__slider-item-current">
+											Current bet
+										</div>
+										<div class="auction__slider-item-price">
+											$ 245 050
+										</div>
+									</div>
+									<div class="auction__slider-item-btn btn">
+										RAISE BET
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="auction__button">
+						<span></span>
+						<div class="auction__button-round">all lots</div>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ============================================================================================================================================= -->
+		<section class="categories" id="categories">
+			<div class="container">
+				<div class="categories__body">
+					<div class="categories__item">
+						<a href="#" class="categories__img-wrapper">
+							<img src="img/categories/icons/1.png" alt="" class="categories__icon">
+							<div class="categories__title">
+								Jewelry
+								Products
+							</div>
+							<div class="categories__decor">
+								<span class="categories__decor-line categories__decor-line-1"></span>
+								<span class="categories__decor-line categories__decor-line-2"></span>
+								<span class="categories__decor-line categories__decor-line-3"></span>
+							</div>
+						</a>
+						<div class="categories__el-wrapper">
+							<span class="categories__el categories__el-1"></span>
+							<span class="categories__el categories__el-2"></span>
+							<span class="categories__el categories__el-3"></span>
+							<span class="categories__el categories__el-4"></span>
+						</div>
+						<span class="categories__el categories__el-5"></span>
+					</div>
+					<div class="categories__item">
+						<a href="#" class="categories__img-wrapper">
+							<img src="img/categories/icons/2.png" alt="" class="categories__icon">
+							<div class="categories__title">
+								Vehicles and boats
+							</div>
+							<div class="categories__decor">
+								<span class="categories__decor-line categories__decor-line-1"></span>
+								<span class="categories__decor-line categories__decor-line-2"></span>
+								<span class="categories__decor-line categories__decor-line-3"></span>
+							</div>
+						</a>
+						<div class="categories__el-wrapper">
+							<span class="categories__el categories__el-1"></span>
+							<span class="categories__el categories__el-2"></span>
+							<span class="categories__el categories__el-3"></span>
+							<span class="categories__el categories__el-4"></span>
+						</div>
+						<span class="categories__el categories__el-5"></span>
+					</div>
+					<div class="categories__item">
+						<a href="#" class="categories__img-wrapper">
+							<img src="img/categories/icons/3.png" alt="" class="categories__icon">
+							<div class="categories__title">
+								Accessories
+							</div>
+							<div class="categories__decor">
+								<span class="categories__decor-line categories__decor-line-1"></span>
+								<span class="categories__decor-line categories__decor-line-2"></span>
+								<span class="categories__decor-line categories__decor-line-3"></span>
+							</div>
+						</a>
+						<div class="categories__el-wrapper">
+							<span class="categories__el categories__el-1"></span>
+							<span class="categories__el categories__el-2"></span>
+							<span class="categories__el categories__el-3"></span>
+							<span class="categories__el categories__el-4"></span>
+						</div>
+						<span class="categories__el categories__el-5"></span>
+					</div>
+					<div class="categories__item">
+						<a href="#" class="categories__img-wrapper">
+							<img src="img/categories/icons/4.png" alt="" class="categories__icon">
+							<div class="categories__title">
+								real estate
+							</div>
+							<div class="categories__decor">
+								<span class="categories__decor-line categories__decor-line-1"></span>
+								<span class="categories__decor-line categories__decor-line-2"></span>
+								<span class="categories__decor-line categories__decor-line-3"></span>
+							</div>
+						</a>
+						<div class="categories__el-wrapper">
+							<span class="categories__el categories__el-1"></span>
+							<span class="categories__el categories__el-2"></span>
+							<span class="categories__el categories__el-3"></span>
+							<span class="categories__el categories__el-4"></span>
+						</div>
+						<span class="categories__el categories__el-5"></span>
+					</div>
+					<div class="categories__item">
+						<a href="#" class="categories__img-wrapper">
+							<img src="img/categories/icons/5.png" alt="" class="categories__icon">
+							<div class="categories__title">
+								Hi-Tech
+							</div>
+							<div class="categories__decor">
+								<span class="categories__decor-line categories__decor-line-1"></span>
+								<span class="categories__decor-line categories__decor-line-2"></span>
+								<span class="categories__decor-line categories__decor-line-3"></span>
+							</div>
+						</a>
+						<div class="categories__el-wrapper">
+							<span class="categories__el categories__el-1"></span>
+							<span class="categories__el categories__el-2"></span>
+							<span class="categories__el categories__el-3"></span>
+							<span class="categories__el categories__el-4"></span>
+						</div>
+						<span class="categories__el categories__el-5"></span>
+					</div>
+					<div class="categories__item">
+						<a href="#" class="categories__img-wrapper">
+							<img src="img/categories/icons/6.png" alt="" class="categories__icon">
+							<div class="categories__title">
+								Clothes and footwear
+							</div>
+							<div class="categories__decor">
+								<span class="categories__decor-line categories__decor-line-1"></span>
+								<span class="categories__decor-line categories__decor-line-2"></span>
+								<span class="categories__decor-line categories__decor-line-3"></span>
+							</div>
+						</a>
+						<div class="categories__el-wrapper">
+							<span class="categories__el categories__el-1"></span>
+							<span class="categories__el categories__el-2"></span>
+							<span class="categories__el categories__el-3"></span>
+							<span class="categories__el categories__el-4"></span>
+						</div>
+						<span class="categories__el categories__el-5"></span>
+					</div>
+					<div class="categories__item">
+						<a href="#" class="categories__img-wrapper">
+							<img src="img/categories/icons/7.png" alt="" class="categories__icon">
+							<div class="categories__title">
+								Items
+								arts
+							</div>
+							<div class="categories__decor">
+								<span class="categories__decor-line categories__decor-line-1"></span>
+								<span class="categories__decor-line categories__decor-line-2"></span>
+								<span class="categories__decor-line categories__decor-line-3"></span>
+							</div>
+						</a>
+						<div class="categories__el-wrapper">
+							<span class="categories__el categories__el-1"></span>
+							<span class="categories__el categories__el-2"></span>
+							<span class="categories__el categories__el-3"></span>
+							<span class="categories__el categories__el-4"></span>
+						</div>
+						<span class="categories__el categories__el-5"></span>
+					</div>
+					<div class="categories__item">
+						<a href="#" class="categories__img-wrapper">
+							<img src="img/categories/icons/8.png" alt="" class="categories__icon">
+							<div class="categories__title">
+								Alcohol and food
+							</div>
+							<div class="categories__decor">
+								<span class="categories__decor-line categories__decor-line-1"></span>
+								<span class="categories__decor-line categories__decor-line-2"></span>
+								<span class="categories__decor-line categories__decor-line-3"></span>
+							</div>
+						</a>
+						<div class="categories__el-wrapper">
+							<span class="categories__el categories__el-1"></span>
+							<span class="categories__el categories__el-2"></span>
+							<span class="categories__el categories__el-3"></span>
+							<span class="categories__el categories__el-4"></span>
+						</div>
+						<span class="categories__el categories__el-5"></span>
+					</div>
+					<div class="categories__item">
+						<a href="#" class="categories__img-wrapper">
+							<img src="img/categories/icons/9.png" alt="" class="categories__icon">
+							<div class="categories__title">
+								Часы
+							</div>
+							<div class="categories__decor">
+								<span class="categories__decor-line categories__decor-line-1"></span>
+								<span class="categories__decor-line categories__decor-line-2"></span>
+								<span class="categories__decor-line categories__decor-line-3"></span>
+							</div>
+						</a>
+						<div class="categories__el-wrapper">
+							<span class="categories__el categories__el-1"></span>
+							<span class="categories__el categories__el-2"></span>
+							<span class="categories__el categories__el-3"></span>
+							<span class="categories__el categories__el-4"></span>
+						</div>
+						<span class="categories__el categories__el-5"></span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ============================================================================================================================================= -->
+		<section class="anounce">
+			<div class="container">
+				<div class="anounce__body">
+					<div class="anounce__img">
+						<img src="img/anounce/1.png" alt="">
+					</div>
+					<div class="anounce__text">
+						<p>
+							We are glad to welcome you to the unique Luxury Auction, here you can find lots worthy of
+							yourself. The real estate auction in many developed countries is the main instrument for the
+							sale and purchase of commercial, residential, and municipal real estate, including
+							apartments. The total volume of transactions in the world at real estate auctions varies
+							from 30% to 80%. For Russia, real estate auction is relatively new and gaining more and more
+							popularity.
+						</p>
+						<p>
+							Municipal real estate, including apartments. The total volume of transactions in the world
+							at real estate auctions varies from 30% to 80%.
+						</p>
+						<p>
+							We are glad to welcome you to the unique Luxury Auction, here you can find lots worthy of
+							yourself. The real estate auction in many developed countries is the main instrument for the
+							sale and purchase of commercial, residential, and municipal real estate, including
+							apartments. The total volume of transactions in the world at real estate auctions varies
+							from 30% to 80%. For Russia, real estate auction is relatively new and gaining more and more
+							popularity.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ============================================================================================================================================= -->
+		<section class="services" id="services">
+			<div class="container">
+				<div class="services__body">
+					<div class="services__gold-title gold-title">
+						Additional
+					</div>
+					<div class="services__title title">
+						services
+					</div>
+					<div class="services__decor-block">
+						<div class="decor-block">
+							<div class="decor-block__row">
+								<span class="decor-block__item decor-block__item_1"></span>
+								<span class="decor-block__item decor-block__item_2"></span>
+								<span class="decor-block__item decor-block__item_3"></span>
+								<span class="decor-block__item decor-block__item_4"></span>
+							</div>
+							<div class="decor-block__img">
+								<img src="img/decor-img/2.png" alt="">
+							</div>
+							<div class="decor-block__row decor-block__row_2">
+								<span class="decor-block__item decor-block__item_1"></span>
+								<span class="decor-block__item decor-block__item_2"></span>
+								<span class="decor-block__item decor-block__item_3"></span>
+								<span class="decor-block__item decor-block__item_4"></span>
+							</div>
+						</div>
+					</div>
+					<div class="services__row">
+						<div class="services__column">
+							<div class="services__column-icon">
+								<img src="img/services/1.png" alt="">
+							</div>
+							<div class="services__column-title">
+								Expert review
+							</div>
+							<div class="services__column-text">
+								We collect an exclusive audience and exclusive lots, give a convenient
+							</div>
+							<div class="services__column-link-wrapper">
+								<span></span>
+								<a href="#" class="services__column-link">
+									read more
+								</a>
+								<span></span>
+							</div>
+						</div>
+						<div class="services__column">
+							<div class="services__column-icon">
+								<img src="img/services/2.png" alt="">
+							</div>
+							<div class="services__column-title">
+								Expert review
+							</div>
+							<div class="services__column-text">
+								We collect an exclusive audience and exclusive lots, give a convenient
+							</div>
+							<div class="services__column-link-wrapper">
+								<span></span>
+								<a href="#" class="services__column-link">
+									read more
+								</a>
+								<span></span>
+							</div>
+						</div>
+						<div class="services__column">
+							<div class="services__column-icon">
+								<img src="img/services/3.png" alt="">
+							</div>
+							<div class="services__column-title">
+								Expert review
+							</div>
+							<div class="services__column-text">
+								We collect an exclusive audience and exclusive lots, give a convenient
+							</div>
+							<div class="services__column-link-wrapper">
+								<span></span>
+								<a href="#" class="services__column-link">
+									read more
+								</a>
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ============================================================================================================================================= -->
+		<section class="quotes">
+			<div class="container">
+				<div class="quotes__body">
+					<div class="quotes__gold-title gold-title">
+						Interesting
+					</div>
+					<div class="quotes__title title">
+						quotes
+					</div>
+					<div class="quotes__decor-block">
+						<div class="decor-block">
+							<div class="decor-block__row">
+								<span class="decor-block__item decor-block__item_1"></span>
+								<span class="decor-block__item decor-block__item_2"></span>
+								<span class="decor-block__item decor-block__item_3"></span>
+								<span class="decor-block__item decor-block__item_4"></span>
+							</div>
+							<div class="decor-block__img">
+								<img src="img/decor-img/3.png" alt="">
+							</div>
+							<div class="decor-block__row decor-block__row_2">
+								<span class="decor-block__item decor-block__item_1"></span>
+								<span class="decor-block__item decor-block__item_2"></span>
+								<span class="decor-block__item decor-block__item_3"></span>
+								<span class="decor-block__item decor-block__item_4"></span>
+							</div>
+						</div>
+					</div>
+					<div class="quotes__slider slider-2">
+						<div class="quotes__slider-item">
+							<div class="quotes__slider-item-inner">
+								<div class="quotes__slider-item-img">
+									<img src="img/quotes/1.png" alt="">
+								</div>
+								<div class="quotes__slider-item-descr">
+									<div class="quotes__slider-item-text">
+										“It’s easier to fool people than to convince them that
+										that they are fooled "
+									</div>
+									<div class="quotes__slider-item-name">
+										Mark Twain
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="quotes__slider-item">
+							<div class="quotes__slider-item-inner">
+								<div class="quotes__slider-item-img">
+									<img src="img/quotes/3.png" alt="">
+								</div>
+								<div class="quotes__slider-item-descr">
+									<div class="quotes__slider-item-text">
+										“A bad friend is like a shadow. When the sun is shining, you cannot run away
+										from it; clouds are gathering over your head - you will not find him."
+									</div>
+									<div class="quotes__slider-item-name">
+										Abai
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="quotes__slider-item">
+							<div class="quotes__slider-item-inner">
+								<div class="quotes__slider-item-img">
+									<img src="img/quotes/2.png" alt="">
+								</div>
+								<div class="quotes__slider-item-descr">
+									<div class="quotes__slider-item-text">
+										We are all geniuses. But if you judge a fish by its ability to climb a tree, it
+										will live its whole life, considering itself a fool.
+									</div>
+									<div class="quotes__slider-item-name">
+										Albert Einstein
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ============================================================================================================================================= -->
+		<section class="events" id="contact">
+			<div class="container">
+				<div class="events__row">
+					<div class="events__column">
+						<div class="events__title events__title_news title">
+							news
+						</div>
+						<div class="events__text">
+							<div class="events__text-bold">
+								Unique Luxury Auction, here you can find
+							</div>
+							<div class="events__text-common">
+								Sale of goods, securities, property of enterprises, works of art and other objects,
+								which ...
+							</div>
+						</div>
+					</div>
+					<div class="events__column">
+						<div class="events__title events__title_events title">
+							events
+						</div>
+						<div class="events__text">
+							<div class="events__text-bold">
+								Decent lots for yourself
+							</div>
+							<div class="events__text-common">
+								Property of enterprises, works of art and other objects, works of enterprises, works of
+								art Sale of goods, securities, property of enterprises, works of art and other objects,
+								which ...
+							</div>
+						</div>
+					</div>
+					<div class="events__column">
+						<div class="events__title events__title_subscription title">
+							Subscription
+						</div>
+						<div class="events__text">
+							<div class="events__text-common">
+								To receive notifications of new offers, enter your email address
+							</div>
+						</div>
+					</div>
+					<div class="events__column events__column_form">
+						<form action="#" class="events__form">
+							<!-- <div class="events__input-wrapper"> -->
+							<input autocomplete="off" type="text" name="form[]" data-error="" data-value="Your Email"
+								class="events__input email req">
+							<!-- </div> -->
+							<button type="submit" class="events__btn"></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ============================================================================================================================================= -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__body">
+					<a href="#" class="footer__logo logo">
+						Luxtrader
+					</a>
+					<div class="footer__links">
+						<a href="#">home</a>
+						<a href="#">auction</a>
+						<a href="#">about project</a>
+						<a href="#">for partners</a>
+						<a href="#">contact</a>
+						<a href="#">news</a>
+						<a href="#">FAQ</a>
+						<a href="#">advertisment</a>
+						<a href="#">agreement</a>
+						<a href="#">subscription</a>
+						<a href="#">services</a>
+					</div>
+					<a href="tel:+7495222222" class="footer__phone">
+						+7 (495) 22-22-22
+					</a>
+				</div>
+			</div>
+		</footer>
 	</div>
-	<!-- @import "popup.html" -->
 	<!-- @import "js.html" -->
-	<script src="/js/forms.js"></script>
 </body>
 
 </html>
